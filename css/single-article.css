@@ -1,0 +1,398 @@
+body{
+    width: 100%;
+    align-items: center;
+    margin: 3px;
+   
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#bg_component {
+
+width: 100%;
+height: 100%;
+background: #F9F3F3;
+border: 1px solid #000000;
+box-sizing: border-box;
+padding-top: 0%;
+}
+#title_component{
+padding: 25px;
+border-bottom: solid 1px;
+
+}
+#imgword{
+padding: 0vmax;
+}
+#bluebanner{
+padding: 100px;
+margin-top: 1000px;
+background-color: royalblue;
+align-tracks: center;
+}
+#home{
+position: absolute;
+width: 130px;
+height: 31px;
+left: 32px;
+top: 10px;
+
+font-family: 'Croissant One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+
+color: #000000;
+}
+#about{
+position: absolute;
+width: 130px;
+height: 31px;
+left: 132px;
+top: 10px;
+
+font-family: 'Croissant One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+
+color: #000000;
+}
+#blog{
+position: absolute;
+width: 117px;
+height: 31px;
+left: 301px;
+top: 10px;
+
+font-family: 'Croissant One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+
+color: #000000;
+}
+#name{
+position: absolute;
+width: 512px;
+height: 72px;
+left: 381px;
+top: 6px;
+
+font-family: 'Croissant One';
+font-style: normal;
+font-weight: 400;
+font-size: 31px;
+line-height: 54px;
+/* or 174% */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.fb{
+position: absolute;
+
+left: 1125px;
+top: 10px;
+
+}
+.lk{
+position: absolute;
+left: 1050px;
+top: 10px;
+
+}
+.tt{
+position: absolute;
+
+left: 975px;
+top: 10px;
+}
+.ig{
+position: absolute;
+
+left: 900px;
+top: 10px;
+}
+.fb1{
+
+left: 1075px;
+top: 20px;
+
+}
+.lk1{
+
+
+left: 1000px;
+top: 20px;
+
+}
+.tt1{
+
+left: 100px;
+top: 20px;
+}
+.ig1{
+
+left: 500px;
+top: 20px;
+}
+
+li{
+list-style: none;
+font-size: 40px;
+float: left;
+margin: 15px;
+}
+
+
+
+
+
+#line1{
+border-bottom: solid 1px;
+color: whitesmoke;
+padding: 10px;
+width: 100%;
+}
+
+
+#footer{
+background: black;
+padding: 100px;
+width: auto;
+height: 202px;
+margin-top: 924px;
+border-color: white;
+text-align: center; 
+}
+#txtfld{
+width: 542px;
+height: 34px;
+}
+#button{
+width: 242px;
+height: 44px;
+background: #557FEB;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: large;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+}
+#footicon ul{
+float: right;
+color: white;
+}
+#footmenu{
+float: left;
+
+}
+#copyright{
+text-align: center;
+padding: 70px;
+}
+#txt{
+object-position: 50%;
+font-style: italic;
+}
+#ball-content{
+    display:block;
+
+}
+#bimg img{
+position:flex;
+width: 900px;
+height: 600px;
+padding-top: 140px;
+padding-left: 80px;
+}
+#article-container{
+    position: absolute;
+    background-color: #C4C4C4;
+    width: 570px;
+    height: 500px;
+    margin-left: 650px;
+    margin-top: 0px;
+}
+#article-container #pcontent{
+    position: relative;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+    padding-left: 40px;
+    margin-top: 50px;
+    
+}
+#article-container #pcontent-body{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#comment{
+position: absolute;
+
+background: linear-gradient(278.54deg, #2F45B7 45.37%, rgba(23, 44, 151, 0) 105.78%);
+}
+ #comment-block{
+    display: absolute;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+#lik1{
+position: absolute;
+width: 103px;
+height: 25px;
+left: 100px;
+top: 830px;
+font-size: 25px;
+
+background: linear-gradient(278.54deg, #2F45B7 45.37%, rgba(23, 44, 151, 0) 105.78%);
+}
+#com1{
+position: absolute;
+width: 203px;
+height: 25px;
+left: 250px;
+top: 830px;
+font-size: 25px;
+
+background: linear-gradient(278.54deg, #2F45B7 45.37%, rgba(23, 44, 151, 0) 105.78%);
+}
+#lik1A{
+position: absolute;
+width: 103px;
+height: 25px;
+left: 100px;
+top: 865px;
+font-size: 25px;
+
+}
+#com1A{
+position: absolute;
+width: 203px;
+height: 25px;
+left: 250px;
+top: 865px;
+font-size: 25px;
+
+}
+#linec{
+position: absolute;
+width: 364px;
+height: 30px;
+border-bottom: solid 4px;
+color: royalblue;
+top: 830px;
+left: 100px;
+}
+
+#bbutton1{
+position: absolute;
+width: 103px;
+height: 45px;
+left: 717px;
+top: 1297px;
+
+background: linear-gradient(278.54deg, #2F45B7 45.37%, rgba(23, 44, 151, 0) 105.78%);
+}
+#bbutton2{
+position: absolute;
+width: 103px;
+height: 45px;
+left: 717px;
+top: 1831px;
+
+background: linear-gradient(278.54deg, #2F45B7 45.37%, rgba(23, 44, 151, 0) 105.78%);
+}
+#bbutton3{
+position: absolute;
+width: 103px;
+height: 45px;
+left: 717px;
+top: 2397px;
+
+background: linear-gradient(278.54deg, #2F45B7 45.37%, rgba(23, 44, 151, 0) 105.78%);
+}
+
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 380px;
+    opacity: 0;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+.popup.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.25);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+.popup .form .form-element{
+margin: 15px 0px;
+}
+.popup .form .form-element label{
+font-size: 14px;
+color: #222;
+}
+.popup  .form .form-element textarea{
+margin-top: 5px;
+display: block;
+width: 100%;
+padding: 10px;
+outline: none;
+border: 1px solid #aaa;
+border-radius: 5px;
+}
+.popup .form .form-element button{
+width: 100%;
+height: 40px;
+border: none;
+outline: none;
+font-size: 15px;
+background: royalblue;
+border-radius: 10px;
+cursor: pointer; 
+}
+.popup .close-btn{
+    position: absolute;
+    top: 10px;
+
+    right: 10px;
+
+    width: 15px;
+    height: 15px;
+    background: rgb(230, 44, 44);
+    color: whitesmoke;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.popup .form .form-element a{
+ display: block;
+ text-align: right;
+ font-size: 15px;
+ color: rgb(87, 31, 177);
+ text-decoration: none;
+ font-weight: 600;   
+}
+.navbar .nav-links a{
+    text-decoration: none;
+}
