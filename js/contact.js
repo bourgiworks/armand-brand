@@ -25,6 +25,12 @@ fetch(sig, {
       .then(response =>response.json())
       .then(result =>{
           console.log(result);
+          if(result.message === "Message sent"){
+          swal('Thank you!', 'Message sent to Us', 'success');
+          nameInput.value = '';
+          emailInput.value = '';
+          messageInput.value = '';
+          }
         //   if(result.message === "User Created"){
         //     swal('Thank you!', 'Message sent to Us', 'success');
         //     window.location.href = '../html/contact.html';
